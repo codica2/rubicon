@@ -9,7 +9,10 @@ module Rubicon
     end
 
     def read
-      IO.read(version_file)
+      write unless ::File.exist?(version_file)
+
+      ver = IO.read(version_file)
+      ver.empty? ? '0.0.0' : IO.read(version_file)
     end
   end
 end

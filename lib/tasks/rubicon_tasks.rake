@@ -1,4 +1,4 @@
-namespace :rubicon do
+namespace :version do
   desc 'bump the patch version (1.2.x)'
   task patch: :environment do
     update_version(:patch)
