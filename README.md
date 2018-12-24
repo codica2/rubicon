@@ -1,10 +1,10 @@
 # Rubicon
 
 Easy project version management.
-Based on [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/) we have built this useful gem. It allows you to manage project version, branch-naming convention and git tags using rails tasks.
+Based on [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/) we have built this useful gem. It allows you managing project version, branch-naming convention and git tags using rails tasks.
 
 ## Installation
-Add this line to your application's Gemfile:
+Add this line to your application Gemfile:
 
 ```ruby
 gem 'rubicon'
